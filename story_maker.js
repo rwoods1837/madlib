@@ -19,11 +19,13 @@ function makeStory() {
 
 
     // Build story. you can add as many paragraphs as you like. (3 points)
-    var paragraph1 = "Young people today would rather listen to a good rock music concert than to Johann Sebastian " + lastname1 + " or to Ludvig von " + lastname2 + " Rock music is played by " + adjective + " groups of young men who wear their hair below their " + pluralnoun1 + " They also wear very odd and colorful " + pluralnoun2 + " and often have beards.The groups have attractive names such as 'The " + pluralanimal + " or " + celebrity + " and The Three " + pluralnoun3 + " . They usually play electric. " + plualnoun4 + " One member of the group usually sits on a raised platform and sets the rhythm by beating his " + noun1 + " . The songs are mostly about some fellow who has been rejected by his " + noun2 + " . They are very sad and when young girls hear them, they often get tears in their " +  pluralnoun5 + " .";
+    var paragraph1 = "Young people today would rather listen to a good rock music concert than to Johann Sebastian " + lastname1 + " or to Ludvig von " + lastname2 + " Rock music is played by " + adjective + " groups of young men who wear their hair below their " + pluralnoun1 + " They also wear very odd and colorful " + pluralnoun2 + " and often have beards.The groups have attractive names such as 'The " + pluralanimal + " or " + celebrity + " and The Three " + pluralnoun3 + " . They usually play electric. " + pluralnoun4 + " One member of the group usually sits on a raised platform and sets the rhythm by beating his " + noun1 + " . The songs are mostly about some fellow who has been rejected by his " + noun2 + " . They are very sad and when young girls hear them, they often get tears in their " +  pluralnoun5 + " .";
 
 
 
     // Display story by putting title & paragraphs into appropriate divs. (3 points)
+    document.getElementById('title').innerHTML = title;
+    document.getElementById('one').innerHTML = paragraph1;
 
 
 }
